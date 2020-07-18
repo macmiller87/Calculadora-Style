@@ -1,0 +1,44 @@
+body {
+    background-color:#c592cc;
+}
+
+body h1 {
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+div#calculadora {
+    width: 345px;
+    height: 370px;
+    background-color: #000000;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#visorcal input {
+    margin: 10px;
+    width: 320px;
+    height: 40px;
+    text-align: left;
+    font-size: 30px;
+}
+
+#botoes input {
+    margin: 10px;
+    font-size: 30px;
+    width: 60px;
+    border-radius: 5px;
+    transform: translate(10%, 10%);
+}
+
+#botoes input#igual {
+    background-color: yellow;
+}
+
+#botoes input#btcomp {
+    padding: 2px;
+}
